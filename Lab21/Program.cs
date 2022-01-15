@@ -59,9 +59,9 @@ namespace Lab21
         }
         static void Gardener2()
         {
-            for (int i = a - 1; i >= 0; i--)
+            for (int i = b - 1; i >= 0; i--)
             {
-                for (int j = b - 1; j >= 0; j--)
+                for (int j = a - 1; j >= 0; j--)
                 {
                     if (Garden[i, j] >= 0)
                     {
